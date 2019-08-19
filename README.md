@@ -3,7 +3,7 @@ CNMAT's ODOT Immersion course, Summer of 2019
 
 ---
 
-Welcome to the 2019 edition of CNMAT's ODOT Immersion Summer School.
+## Initial Installation of Max/MSP
 
 [Max/MSP/Jitter download v8](https://cycling74.com/downloads)
 
