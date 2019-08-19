@@ -23,7 +23,7 @@ Download these packages and place in your Max directory (as described below):
 
 - ODOT Summer School Files (this repository)
 
-- [CNMAT ODOT Library (Mac)](https://github.com/CNMAT/CNMAT-odot/releases/download/v1.2-20_beta/odot-Max-MacOSX-v1.2-20_beta.tgz)
+- [CNMAT ODOT Library](https://github.com/CNMAT/CNMAT-ODOT-SS-2019/releases/download/1.1/CNMAT-odot.zip)
 
 - [CNMAT ODOT Library (Win)](https://github.com/CNMAT/CNMAT-odot/releases/download/v1.2-20_beta/odot-Max-Win32-64-v1.2-20_beta.zip)
 
