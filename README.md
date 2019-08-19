@@ -10,15 +10,15 @@ Welcome to the 2015 edition of CNMAT's Max/MSP/Jitter Summer School.
 ---
 **For this class, we need to install some files and folders, which operate as an extension to the Max application.**
 
-## Installation
+## Install
 
-### CNMAT Externals:
+### CNMAT Externals
 
 Go to the File -> Package Manager, search for "CNMAT" and install
 
 ---
 
-### Download/Install packages:
+### Download packages
 Download these packages and place in your Max directory (as described below):
 
 - ODOT Summer School Files (this repository)
@@ -32,6 +32,7 @@ Download these packages and place in your Max directory (as described below):
 - CNMAT Internal externals:  Files will be passed around on a flash drive (if you don't have this yet, ask around for it)
 
 ---
+### Installation
 Double-click to unzip, and place the resultant folders in the following location(s), depending on your OS:
 
 - Mac `~/Documents/Max\ 8/Packages/`
@@ -47,4 +48,5 @@ Double-click to unzip, and place the resultant folders in the following location
 - Add a search path preference for the following folder (+ button), then click on 'choose':
 
     Add `/dev` folder (Mac): `~/Documents/Max\ 8/Packages/odot/dev`
+
     Add `/dev` folder (Win): `C:\Users\<your username>\Documents\Max 8\Packages\odot\dev`
