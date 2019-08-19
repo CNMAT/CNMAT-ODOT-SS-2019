@@ -21,11 +21,9 @@ Go to the File -> Package Manager, search for "CNMAT" and install
 ### Download packages
 Download these packages and place in your Max directory (as described below):
 
-- ODOT Summer School Files (this repository)
+- ODOT Summer School Files (this repository; updated by day)
 
 - [CNMAT ODOT Library](https://github.com/CNMAT/CNMAT-ODOT-SS-2019/releases/download/1.1/CNMAT-odot.zip)
-
-- [CNMAT ODOT Library (Win)](https://github.com/CNMAT/CNMAT-odot/releases/download/v1.2-20_beta/odot-Max-Win32-64-v1.2-20_beta.zip)
 
 - [CNMAT MMJ Depot (Multi-platform)](https://github.com/CNMAT/CNMAT-MMJ-Depot/releases/download/v3.1.1/CNMAT-MMJ-Depot.zip)
 
