@@ -1,8 +1,5 @@
 # CNMAT-ODOT-SS-2019
 CNMAT's ODOT Immersion course, Summer of 2019
-
-
-CNMAT-MMJSS-2015
 ================
 
 Welcome to the 2015 edition of CNMAT's Max/MSP/Jitter Summer School.
