@@ -45,6 +45,6 @@ Double-click to unzip, and place the resultant folders in the following location
 - Go to Max -> Options -> File Preferences
 - Add a search path preference for the following folder (+ button), then click on 'choose':
 
-    Add `/dev` folder (Mac): `~/Documents/Max\ 8/Packages/odot/dev`
+    Add `/dev` folder (Mac): `~/Documents/Max\ 8/Packages/CNMAT-odot/dev`
 
-    Add `/dev` folder (Win): `C:\Users\<your username>\Documents\Max 8\Packages\odot\dev`
+    Add `/dev` folder (Win): `C:\Users\<your username>\Documents\Max 8\Packages\CNMAT-odot\dev`
