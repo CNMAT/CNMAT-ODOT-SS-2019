@@ -39,6 +39,17 @@
 		"subpatcher_template" : "Untitled5_template",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 49.0, 297.0, 150.0, 22.0 ],
+					"text" : "time value pairs"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-30",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -78,15 +89,15 @@
 					"fontface" : 0,
 					"fontsize" : 14.0,
 					"id" : "obj-25",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "o.compose",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 709.5, 61.0, 172.0, 58.0 ],
-					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 98, 117, 102, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 109, 101, 98, 117, 102, 0, 0, 0, 0, 20, 47, 115, 116, 97, 114, 116, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 101, 110, 100, 0, 0, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0 ],
-					"saved_bundle_length" : 88,
-					"text" : "/buf : \"somebuf\",\n/start : 0.,\n/end : 1."
+					"patching_rect" : [ 709.5, 61.0, 172.0, 74.0 ],
+					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 98, 117, 102, 0, 0, 0, 0, 44, 115, 0, 0, 115, 111, 109, 101, 98, 117, 102, 0, 0, 0, 0, 20, 47, 115, 116, 97, 114, 116, 0, 0, 44, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 101, 110, 100, 0, 0, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 103, 97, 105, 110, 0, 0, 0, 44, 100, 0, 0, 63, -16, 0, 0, 0, 0, 0, 0 ],
+					"saved_bundle_length" : 112,
+					"text" : "/buf : \"somebuf\",\n/start : 0.,\n/end : 1.,\n/gain : 1."
 				}
 
 			}
@@ -208,8 +219,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 387.0, 341.0, 356.0, 86.0 ],
-					"text" : "/start = /start * /time/ms, \n/end = /end * /time/ms, \n/dur = abs(/start - /end), \n/amp/line = [0, 0, 1, 10, 1, /dur - 20, 0, 10], \n/play/line = [/start, 0, /end, /dur]"
+					"patching_rect" : [ 313.0, 341.0, 414.0, 86.0 ],
+					"text" : "/start = /start * /time/ms, \n/end = /end * /time/ms, \n/dur = abs(/start - /end), \n/amp/line = [0, 0, /gain, 10, /gain, /dur - 20, 0, 10], \n/play/line = [/start, 0, /end, /dur]"
 				}
 
 			}
@@ -316,10 +327,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 617.0, 660.0, 40.0, 24.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 1"
 				}
 
@@ -331,10 +338,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 387.0, 660.0, 48.0, 24.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
@@ -347,10 +350,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 324.0, 17.0, 31.0, 24.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 
