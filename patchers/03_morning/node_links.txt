@@ -1,0 +1,9 @@
+
+Node package manager
+https://docs.npmjs.com/getting-started/
+
+Node API documentation
+https://nodejs.org/dist/latest-v12.x/docs/api/
+
+Max API 
+https://docs.cycling74.com/nodeformax/api/module-max-api.html
