@@ -47,8 +47,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 466.0, 232.5, 314.0, 43.0 ],
-					"presentation_linecount" : 2,
-					"text" : "here, we have created parameters (/myparamname) and their associated data (value)"
+					"text" : "here, we have created parameters (/myparamname) and their associated values"
 				}
 
 			}
@@ -74,7 +73,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 150.0, 202.0, 369.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "an ODOT bundle - created by instantiating the \"o.compose\" object.  "
 				}
 
@@ -90,7 +88,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 315.0, 242.0, 129.0, 38.0 ],
-					"presentation_linecount" : 2,
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 116, 114, 117, 101, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 102, 0, 0, 0, 20, 47, 99, 97, 114, 0, 0, 0, 0, 44, 115, 0, 0, 116, 111, 121, 111, 116, 97, 0, 0 ],
 					"saved_bundle_length" : 60,
 					"text" : "/true : 102,\n/car : \"toyota\""
